@@ -1,5 +1,5 @@
 %% The average recognition rates 
-%%  Use four NN classifiers and one discriminative classifiers to calculate recognition rate
+%%  Use four NN classifiers and one discriminative classifier to calculate recognition rate
 %%  Author: Kai-Xuan Chen
 
 clear;
