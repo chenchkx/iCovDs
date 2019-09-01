@@ -22,7 +22,7 @@ and put 8 filefolders(visual image sets from 8 different categories) into filefo
 Please run 'read_ETH.m' to generate Kernel Matrix Representation. Then run 'run_ETH.m' for image set classification.  
 
 
-For classification, we employ four NN classifiers and one discriminative classifiers in this source code.  
+For classification, we employ four NN classifiers and one discriminative classifier in this source code.  
 
 Ker-SVM : Qilong Wang implemented a one-vs-all classifier by using LIBSVM package in the paper:  
 Q. Wang, P. Li, W. Zuo, and L. Zhang. Raid-g: Robust estimation of approximate infinite dimensional gaussian with application to material recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 4433-4441, 2016.  
