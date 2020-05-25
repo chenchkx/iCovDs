@@ -23,5 +23,9 @@ and put 8 filefolders(visual image sets from 8 different categories) into filefo
 Please run 'read_ETH.m' to generate Kernel Matrix Representation. Then run 'run_ETH.m' for image set classification.  
 
 
-For classification, we employ four NN classifiers and one discriminative classifier in this source code.  
+For more experiment, you can test on Virus dataset (https://github.com/Kai-Xuan/Virus/)
+
+
+
+
 
