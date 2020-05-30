@@ -3,7 +3,6 @@
 %% Email: kaixuan_chen_jsh@163.com
 
 function option = set_Option(name)
-    addpath(genpath('tool_Mat'));
     addpath(genpath('tool_Kit'));
     addpath(genpath('CDL')); 
     addpath(genpath('LogEK_SR'));
