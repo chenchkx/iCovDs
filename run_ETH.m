@@ -6,7 +6,8 @@ clear;
 clc;
 option = set_Option('ETH');
 [option,log_CovDs,dis_Matrix] = loading_Para(option);
-load In_Matrix_ETH.mat;
+In_Matrix = gen_randMatrix(option);
+% load('In_Matrix_ETH.mat');
 row_total = size(In_Matrix,1);% In_Matrix
 
 for ite_th = 1:option.num_Ite
