@@ -1,11 +1,12 @@
-More About Covariance Descriptors for Image Set Coding: Log-Euclidean Framework based Kernel Matrix Representation
+This repository includes two representations for describing image set.
 
-Written by Kai-Xuan Chen (e-mail: kaixuan_chen_jsh@163.com)   
+ - iCovDs: Also a more discriminative representation (it can be considered as an improved version of CSPD).
 
-Please cite the following paper (more theoretical and technical details) if your are using this code:
+ - CSPD: A simple but very effective framework to generate low-dimensional discriminative representation for image set classification
 
-Kai-Xuan Chen, Xiao-Jun Wu，Jie-Yi Ren, Rui Wang, Josef Kittler. More About Covariance Descriptors for Image Set Coding: Log-Euclidean Framework based Kernel Matrix Representation[C]// Proceedings of the IEEE international conference on computer vision workshops, 2019.
 
+
+<br>If you find this code useful for your research, we appreciate it very much if you can cite our related works:</br>
 
 BibTex : 
 ```
@@ -16,16 +17,24 @@ BibTex :
   pages={0--0},
   year={2019}
 }
+
 ```
 
-The ETH-80 dataset is needed to be downloaded(https://github.com/Kai-Xuan/ETH-80/),  
-and put 8 filefolders(visual image sets from 8 different categories) into filefolder '.\ETH-80\'.  
-Please run 'read_ETH.m' to generate Kernel Matrix Representation. Then run 'run_ETH.m' for image set classification.  
+BibTex :   
+```
+@article{Chen2018Component,  
+      title={Component SPD matrices: A low-dimensional discriminative data descriptor for image set classification},  
+      author={Chen, Kai-Xuan and Wu, Xiao-Jun},  
+      journal={Computational Visual Media},  
+      volume={4},  
+      number={3},  
+      pages={245--252},  
+      year={2018},  
+      publisher={Springer}  
+}  
+```
 
 
-For more experiment, you can test on Virus dataset (https://github.com/Kai-Xuan/Virus/)
-
-
-
-
-
+<br>Also, you find more discriminative representations for image set classification at:</br>
+  1. RieCovDs:  https://github.com/Kai-Xuan/RiemannianCovDs
+  2. AidCovDs:  https://github.com/Kai-Xuan/AidCovDs
