@@ -1,4 +1,4 @@
-This repository includes two representations for describing image set.
+This repository includes two representations for describing image sets.
 
  - iCovDs: Also a more discriminative representation (it can be considered as an improved version of CSPD).
 
